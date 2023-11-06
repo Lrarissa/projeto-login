@@ -7,32 +7,33 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-  <main>
-    <section id="login">
-        <div id="imagens">
-            <img src="" alt="imagem">
-        </div>
-        <div id="formulario">
-            <h1>Login</h1>
-            <p>
-                Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
-            </p>
-            <div>
-                <form action="login.php" method="post" >
-                    <input type="email" required placeholder=" E-mail" required minlength="8" autocomplete="email">
+    <main>
+        <article id="login">
+            <div id="imagem">
             </div>
-           
-            <div>
-                <input type="password" required placeholder="Senha" required minlength="8" maxlength="10" autocomplete="current-password">
+            <div id="conteudo">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
             </div>
 
-            <div>
-                <input type="submit" value="Entrar">
-                <a href="#">Esqueci a senha</a>
+            <div id="formulario">
+                <form action="login.php" method="post" class="form">
+                    <input type="email" name="email" id="iemail" required placeholder="E-mail">
+                    <label for="iemail">E-mail</label>
+
+                    <div>
+                        <input type="password" name="num" id="inum" required placeholder="Senha" minlength="8">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrer"> <br>
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                </form>
             </div>
-            </form>
-        </div>
-    </section>
-  </main>
+        </article>
+    </main>
 </body>
 </html>
