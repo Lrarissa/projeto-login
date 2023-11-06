@@ -92,6 +92,32 @@ div > input{
     transform: translateY(-10px);
 } 
 
+div.entrar{
+    padding: 10px;
+    text-align: center;
+}
+
+form > div.entrar > input{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #53aaa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > div.entrar > input:hover{
+    background-color: #317775;
+}
+
+a{
+    text-decoration: none;
+    color: #317775;
+}
+
 div.form > span{
     color: white;
     font-size:2em;
