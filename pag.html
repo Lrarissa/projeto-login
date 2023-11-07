@@ -5,15 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
     <style>
-    
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        main{
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            background-color: violet;
+        }
+
+        div{
+            display: inline-block;
+            border: 1px solid black; 
+            height: 200px;
+            width: 200px;
+
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-150%, 30%);
+        }
+
+        .luna{
+            
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+            padding-top: 15px;
+        }
     </style>
 </head>
 <body>
     <main>
         <h1>Bem Vindo ao meu site</h1>
-        <section>
-            <div>
-                <img src="" alt="Luna">
+        <section >
+            <div class="luna">
+             <img src="imagens/primeira-foto.lnk" alt="Luna bebé">
+            </div>
+               
+            <div class="luna">
+            <img src="imagens/pequena-fazendo-pose.lnk" alt="Luna bebé fazendo pose">
+            </div>
+
+            <div class="luna">
+            <img src="imagens/dormindo.lnk" alt="Luna">
+            </div>
+            <br>
+            <div class="luna">
+            <img src="imagens/fazendo-pose.lnk" alt="Luna">
+            </div>
+
+            <div class="luna">
+            <img src="imagens/dose-2.lnk" alt="Luna">
+            </div>
+
+            <div class="luna">
+            <img src="imagens/cansada.lnk" alt="Luna">
             </div>
         </section>
     </main>
