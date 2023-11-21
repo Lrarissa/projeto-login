@@ -50,10 +50,9 @@ article#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
 
-    transform: translate(-50%, -50%);
-
     transition: width .3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 article#login > div#imagem{
@@ -91,7 +90,7 @@ div > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translateY(-12px);
 } 
 
 div.entrar{
@@ -117,6 +116,11 @@ form > div.entrar > input:hover{
 
 a{
     text-decoration: none;
+    color: var(--verde);
+}
+
+form > div.entrar > a > span{
+    font-size: 1em;
 }
 
 div.form > span{
